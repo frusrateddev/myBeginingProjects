@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <title>Curriculum Vitae</title>
+</head>
+<body>
+    <main>
+    <hr>
+    <h1>Christian Joshua Demonteverde</h1>
+    <h3>Junior Frontend Developer / Shift Manager</h3><br>
+
+    <p>Blk 66 Lot 5 Bulaon Restlement
+    <br>City of Sanfernando - 2000
+    <br>(+63) 9953-50795
+    <br>cj.demonteverde.hu@gmail.com</p><br>
+        <h3>Skills</h3>
+        <p>HTML, CSS, Javascript, Figma to Design, Responsive Web Design, Technical Writing, Presentation</p>
+        <br><h3>Education</h3>
+        <h4>Pampanga State University (former DHVSU) - Bachelor of Science in Information Technology</h4>
+        <p>School Year 2013 - 2017</p>
+        <p>Best in Thesis : <strong>Iskolar king DHVSU</strong></p>
+
+        <br><h3>Experience</h3>
+        <h4>Shift Manager - <i>EMAPTA INC. - SHORE 360</i></h4>
+        <h4>December 2024 up to present</h4>
+        <p>Overseeing four individual pipelines—rendering, framing, product placement, and blueprint—while ensuring all workflows run smoothly and efficiently. Developing scorecards and reporting KPIs for each pipeline to support continuous growth and monthly improvement. Encouraging open communication by providing employees with the freedom to share their opinions and addressing all questions and concerns related to their data and KPIs. Conducting regular one-on-one conversations to ensure employees feel comfortable, supported, and heard</p>
+        <p><strong>Skills:</strong> Leadership, Coaching, KPI review, Pipeline Management</p>
+
+        <br><h4>Product Trainer - <i>SHORE 360</i></h4>
+        <h4>June 2022 to December 2024</h4>
+        <p>Provide training to individuals to assist them in learning or enhancing specific skills, particularly in SketchUp and the workflow process.
+            Provide coaching and support to future team leads who will be responsible for managing the team during the nesting phase.
+            Offer coaching and support to future team leads who will be capable of managing the team during the product phase as well.</p>
+        <p><strong>Skills:</strong> Coaching, training opputunities, product technical skills</p>
+
+       <br> <h4>3D Modeler - <i>SHORE 360</i></h4>
+        <h4>February 2018 to June 2022</h4>
+        <p>Provide training to individuals to assist them in learning or enhancing specific skills, particularly in SketchUp and the workflow process.
+            Provide coaching and support to future team leads who will be responsible for managing the team during the nesting phase.
+            Offer coaching and support to future team leads who will be capable of managing the team during the product phase as well.</p>
+        <p><strong>Skills:</strong> Coaching, training opputunities, product technical skills</p>
+
+        <br> <h3>Social Media Links</h3>
+        <p><strong>Linkedin : </strong>https://www.linkedin.com/in/christian-joshua-demonteverde-151b97271/</p>
+        <p><strong>Facebook : </strong>https://www.facebook.com/qwertyuiopb1tch</p>
+    </main>
+
+</body>
+</html>
