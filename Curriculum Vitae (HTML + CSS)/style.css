@@ -1,0 +1,28 @@
+main{
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+h3{
+    margin: 0;
+    padding: 0;
+    color: green;
+}
+h4{
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+hr{
+ height:2px;
+ border-width:0;
+ background-color:black;
+}
