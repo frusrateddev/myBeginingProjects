@@ -1,0 +1,420 @@
+
+*{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.nav-links a{
+    text-decoration: none;
+}
+.nav-btn {
+    background-color:green;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.nav-btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.hero-section{
+    display: flex;
+    align-items: center;    
+    justify-content: space-between;
+    padding: 50px;         
+    max-width:80vw;      
+    margin: 0 auto;       
+    gap: 10px;
+    border: 5px green solid;
+    border-radius: 5px;
+}
+.hero-text{
+    flex: 1;
+}
+.hero-image {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+}
+.hero-text h1{
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-size: 80px;
+    max-width: 700px;
+    line-height: 1.1;
+}
+
+.hero-btn a{
+    text-decoration: none;
+    color: black;
+    padding: 2%;
+    background-color: green;
+    border-radius: 3px;
+    color: white;
+}
+
+.hero-btn{
+display: flex;
+gap: 30px   ;
+}
+
+.hero-text p{
+max-width: 800px;
+line-height: 1.6;
+margin-bottom: 20px;
+}
+
+a.btn-active{
+    border: 2px solid green;
+    background-color: white;
+    color: green;
+}
+
+.essential-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5%;
+}
+.essential-cards{
+    display: flex;
+    gap: 40px;
+    width: 100%;
+    justify-content: center;
+}
+
+.card{
+    border: solid 5px green;
+}
+.essential-img{
+    height: auto;
+}
+
+.grade-card{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    height: 400px;
+    padding: 0;
+    overflow: hidden;
+    max-width: 50%;
+}
+
+.grade-card .card-description{
+    flex: 1;
+    padding: 20px;
+}
+.grade-card img{
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+
+}   
+.schedule-card img{
+    width: 100%;        
+    display: block;      
+    height: auto;        
+    margin-top: auto;
+}
+
+.schedule-card,.updates-card{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    max-width: 20%;
+    overflow: hidden;
+    height: 400px;
+    justify-content: space-between;
+}
+
+.updates-card img{
+    width: 100%;
+    display: block;
+    height: auto;
+    margin-top: auto;
+}
+.schedule-card *,
+.updates-card *{
+    padding-left: 15px;
+}
+
+/* Security Section CSS */
+
+.security-section{
+    margin: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.security-section img{
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.sec-btn{
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+    margin-top: 3%;
+}
+.sec-active{
+    padding: 15px;
+    border: green solid 2px;
+    border-radius: 3px;
+}
+
+.sec-details{
+    margin: 5%;
+}
+
+.sec-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.sec-item img{
+    width: 24px;
+    height: auto;
+}
+
+.sec-item p{
+        margin: 0;
+}
+
+/* Live Section CSS */
+
+.live-section{
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.live-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.live-heading p{
+    margin: 0;
+}
+.live-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 5%;
+    gap: 50px;
+    border: solid green 5px;
+}
+
+.live-card img{
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+.live-btn{
+    margin-top: 5%;
+
+}
+
+.live-active{
+    padding: 15px;
+    border: green solid 2px;
+    border-radius: 3px;
+}
+
+.live-btn a{
+    margin-right: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Testimonial section CSS */
+
+.testimonial-section{
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+}
+
+.testimonial-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    gap: 20px;
+}
+
+
+.testimonial-card{
+    align-items: center;
+    border: 2px green solid;
+    padding: 1%;
+    height: auto;
+}
+.testimonial-card img{
+    width: 30px;
+}
+
+.testimonial-profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-top: 5%;
+}
+
+.testimonial-profile p{
+    margin: 0;
+}
+
+
+/*Partnership section CSS */
+
+.partnership-section{
+    margin: 5%;
+    text-align: center;
+}
+
+.partnership-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 5%;
+}
+
+.partnership-logo img{
+    width: 10%;
+    height: auto;
+}
+
+/* Started Section CSS */
+
+
+.started-container{
+    background-image: linear-gradient(to bottom right, green, yellow);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding: 5%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.started-container a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: black;
+}
+
+.started-active{
+    padding: 15px;
+    background-color: white;
+    border-radius: 5px;
+}
+.started-container p{
+    padding-bottom: 10px;
+}
+
+.started-inactive{
+    padding: 15px;
+    border: white solid 2px;
+    border-radius: 5px;
+}
+
+/*Footer Section CSS*/
+
+footer{
+    margin: 5%;
+    padding: 3%;
+    padding-left: 20%;
+    padding-right: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: green solid 5px;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.footer-template img{
+    width: 4%;
+    margin-right: 1%;
+    margin-top: 2%;
+}
+
+.footer-template p{
+    margin: 0;
+}
+.footer-template h3{
+    margin: 0;
+}
+.footer-template a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 20%;
+}
+
+.footer-credit{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: linear-gradient(to bottom right, green, yellow);
+    align-items: center;
+    color: black;
+    height: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.footer-link{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.footer-link a{
+    color: black;
+}
